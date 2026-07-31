@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", "DejaVu Sans", sans-serif;
+    background-color: #FFF8F0;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #8B4513;
+    font-size: 42px;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #A0522D;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    margin: 25px 30px;
+}
+
+.lasagna.image{
+    height: 300px;
+    object-fit: cover;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.card {
+    background-color: white;
+    padding-left: 40px;
+    margin: 25px auto;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #D2691E;
+    font-weight: bold;
+}
+
+/* ---------- Recipe pages ---------- */
+
+.recipe {
+    background-color: white;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.recipe img {
+    display: block;
+    width: 70%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+/* ---------- Lists ---------- */
+
+ul,
+ol {
+    padding-left: 30px;
+}
+
+
+/* ---------- Buttons / links ---------- */
+
+a {
+    color: #8B4513;
+}
+
+a:hover {
+    color: #D2691E;
+}
+
+
+/* ---------- Individual recipe themes ---------- */
+
+.lasagna-page {
+    background-color: #FFF3D6;
+}
+
+.chicken-curry-page {
+    background-color: #FFE8B6;
+}
+
+.cookies-page {
+    background-color: #F3E0C7;
+}
